@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Infernal Horizons – Foro Oficial de Fans</title>
+<style>
+:root{--bg:#f5f2ef;--page:#fff;--ink:#1f1b19;--mut:#80766f;--line:#ebe5df;--acc:#9c2a1f;--soft:#faf7f4;--hd1:#fff;--hd2:#fff;--link:#9c2a1f;--row1:#fff;--row2:#faf7f4;--bd:#ebe5df;--tx:#1f1b19;--quote:#faf7f4;--spoil:#e4ddd6;--topbg:#fff;--cat1:#fff;--cat2:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141211;--page:#1b1918;--ink:#ece7e3;--mut:#9a928c;--line:#2f2a27;--acc:#e4796b;--soft:#211e1c;--link:#e4796b;--row1:#1b1918;--row2:#211e1c;--bd:#2f2a27;--tx:#ece7e3;--quote:#211e1c;--spoil:#3a3430;--topbg:#1b1918}}
+:root[data-theme="dark"]{--bg:#141211;--page:#1b1918;--ink:#ece7e3;--mut:#9a928c;--line:#2f2a27;--acc:#e4796b;--soft:#211e1c;--link:#e4796b;--row1:#1b1918;--row2:#211e1c;--bd:#2f2a27;--tx:#ece7e3;--quote:#211e1c;--spoil:#3a3430;--topbg:#1b1918}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:2px}
+#wrap{max-width:820px;margin:0 auto;background:var(--page);padding:48px 32px 32px;min-height:100vh}
+#hd{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid var(--acc);color:var(--ink);background:none;border-left:0;border-right:0;border-top:0}
+#hd h1{margin:0;font:400 40px/1.1 Georgia,"Times New Roman",serif;letter-spacing:-.5px;text-shadow:none;color:var(--ink)}
+#hd p{margin:8px 0 0;font-size:13px;color:var(--mut)}
+#hd .login{background:none;border:0;padding:0;font-size:12px;color:var(--mut);text-align:right}
+#hd .login a{color:var(--acc)}
+nav.m{display:flex;gap:22px;flex-wrap:wrap;padding:14px 0;margin:0 0 8px;border:0;background:none;font-weight:400;font-size:14px}
+nav.m a{color:var(--mut)}nav.m a:hover{color:var(--acc);text-decoration:none}
+.crumb{font-size:12px;color:var(--mut);margin:18px 0 10px}
+.warn{background:var(--soft);color:var(--mut);border:0;border-left:2px solid var(--acc);padding:10px 14px;margin:0 0 28px;font-weight:400;font-size:13px}
+.cat{border:0;margin:0 0 44px}
+.cat>h2{margin:0 0 6px;padding:0 0 8px;font:400 22px Georgia,"Times New Roman",serif;color:var(--ink);background:none;border-bottom:1px solid var(--line)}
+table{width:100%;border-collapse:collapse}
+th{background:none;font-size:11px;font-weight:400;text-align:left;padding:8px 0;border-bottom:0;color:var(--mut)}
+td{padding:14px 0;vertical-align:top;border-bottom:1px solid var(--line)}
+tr:nth-child(odd) td,tr:nth-child(even) td{background:none}
+td.n{width:80px;text-align:right;color:var(--mut);font-size:13px}
+td.t b a{font-size:16px;font-weight:600;color:var(--ink)}td.t b a:hover{color:var(--acc)}
+.ico{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--acc);margin-right:12px;font-size:0;border:0;vertical-align:middle}
+.sm{font-size:12px;color:var(--mut)}
+.post{display:flex;gap:24px;border:0;border-bottom:1px solid var(--line);margin:0;padding:22px 0;background:none}
+.pu{width:110px;flex:none;background:none;border:0;padding:0;font-size:12px;color:var(--mut);text-align:left}
+.pu b{display:block;font-size:13px;color:var(--ink);font-weight:600}
+.av{width:44px;height:44px;border-radius:50%;margin:0 0 10px;border:0;background:var(--acc)!important;font:400 20px Georgia,serif;display:flex;align-items:center;justify-content:center;color:var(--page)}
+.pb{flex:1;min-width:0;padding:0}
+.pb h3{margin:0 0 10px;font:400 20px/1.3 Georgia,"Times New Roman",serif;padding:0;border:0}
+.pb .d{font:400 12px "Segoe UI",system-ui,sans-serif;color:var(--mut);float:right;margin-left:12px}
+.pb p{margin:0 0 12px}
+blockquote{margin:14px 0;padding:2px 0 2px 16px;background:none;border:0;border-left:2px solid var(--acc);font:italic 16px Georgia,serif;color:var(--mut)}
+blockquote cite{display:block;font:600 12px "Segoe UI",system-ui,sans-serif;font-style:normal;margin-bottom:2px;color:var(--ink)}
+details{margin:0;border:0;border-bottom:1px solid var(--line);background:none}
+summary{cursor:pointer;padding:14px 0;font-weight:600;background:none;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";display:inline-block;width:20px;color:var(--acc);font-weight:400}
+details[open]>summary::before{content:"–"}
+details>div{padding:0 0 16px 20px;color:var(--ink)}
+.sp{background:var(--spoil);color:transparent;padding:0 3px;cursor:pointer;border-radius:3px;transition:color .2s}
+.sp:hover,.sp.on{color:var(--ink)}
+.sig{margin-top:14px;padding-top:0;border:0;font:italic 14px Georgia,serif;color:var(--mut)}
+.bar{height:4px;border-radius:2px;background:var(--acc);border:0;margin-bottom:4px}
+ul.fc{margin:10px 0;padding:0 0 0 18px}ul.fc li{margin:10px 0}
+.stats{font-size:12px;padding:8px 0;color:var(--mut)}
+footer{text-align:center;font-size:12px;color:var(--mut);padding:24px 0 0}
+.cnt{display:inline-block;font:12px "Segoe UI",system-ui,sans-serif;color:var(--ink);background:none;border:0;padding:0;letter-spacing:0}
+ol.chl{font-size:14px;color:var(--ink)}ol.chl li{margin:2px 0;break-inside:avoid}
+@media(max-width:640px){#wrap{padding:28px 18px}#hd h1{font-size:30px}.post{flex-direction:column;gap:10px}.pu{width:auto;display:flex;gap:10px;align-items:center}.av{margin:0;width:36px;height:36px;font-size:16px}th.h,td.h{display:none}ol.chl{columns:1!important}}
+</style>
+</head>
+<body>
+<div id="wrap">
+<div id="hd">
+  <div><h1>Infernal Horizons</h1><p>Foro de fans · de la comuna 54 al Palacio Ludendorff</p></div>
+  <div class="login">Invitado · <a href="#reg">Iniciar sesión</a></div>
+</div>
+<nav class="m"><a href="#inicio">Inicio</a><a href="#caps">Capítulos</a><a href="#personajes">Personajes</a><a href="#partes">Partes épicas</a><a href="#datos">Datos curiosos</a><a href="#faq">FAQ</a></nav>
+
+<div class="crumb" id="inicio">Índice del foro › <b>Infernal Horizons</b></div>
+<div class="warn">Este foro contiene spoilers de toda la historia. Los más importantes están tapados: haz clic para leerlos.</div>
+
+<div class="cat"><h2>Sobre el libro</h2>
+<table>
+<tr><th>Tema</th><th class="h" style="width:90px">Respuestas</th><th class="h" style="width:90px">Lecturas</th></tr>
+<tr><td class="t"><span class="ico"></span><b><a href="#sinopsis">[FIJO] Bienvenidos: ¿de qué va Infernal Horizons?</a></b><br><span class="sm">por Admin · lee esto antes de postear</span></td><td class="n h">110</td><td class="n h">1.696</td></tr>
+<tr><td class="t"><span class="ico"></span><b><a href="#caps">[FIJO] Guía de capítulos por temporadas</a></b><br><span class="sm">por Admin</span></td><td class="n h">110</td><td class="n h">9.999</td></tr>
+<tr><td class="t"><span class="ico"></span><b><a href="#personajes">Los personajes más mencionados (¡ranking!)</a></b><br><span class="sm">por Sabueso_Fan_99</span></td><td class="n h">16</td><td class="n h">3.986</td></tr>
+<tr><td class="t"><span class="ico"></span><b><a href="#partes">Las partes más interesantes del libro</a></b><br><span class="sm">por ImpDeLaComuna</span></td><td class="n h">12</td><td class="n h">2.310</td></tr>
+<tr><td class="t"><span class="ico"></span><b><a href="#datos">Datos curiosos y errores de edición</a></b><br><span class="sm">por Marta_Enfermera</span></td><td class="n h">9</td><td class="n h">1.205</td></tr>
+</table></div>
+
+<div class="post" id="sinopsis">
+ <div class="pu"><b>Admin</b><div class="av" style="background:#7a1410">A</div>Administrador<br>Mensajes: 1.696</div>
+ <div class="pb"><h3><span class="d">« Publicado: 15 Nov 2026, 12:00 »</span>Bienvenidos: ¿de qué va Infernal Horizons?</h3>
+ <p>Todo empieza con un error que la familia Ludendorff jamás se permitió: Rubí, de 20 años, se enamora en secreto de otro miembro del linaje. Cuando le cuenta que espera un hijo, él la golpea, le arranca las joyas y la abandona en un callejón de una comuna lejana, convencido de que ninguno de los dos sobrevivirá.</p>
+ <p>Pero Marta, una imp con corazón de enfermera, la encuentra. Así nace <b>Desmond</b>, un niño criado entre la pobreza de la comuna 54 que, sin saberlo, lleva sangre real. A los 18 se va con su hermano James a hacerse un lugar en un infierno que es mucho más complicado de lo que parece: sabuesos infernales, música, política de familias nobles, un cielo que mira desde arriba… y una maldición.</p>
+ <blockquote><cite>Antrox escribió:</cite>Sangre real con crianza callejera. ¡Interesante, muy interesante!</blockquote>
+ <p>Son <b>110 capítulos</b> repartidos en temporadas, con finales de temporada en los capítulos 20, 40 y 55.</p>
+ <div class="sig">—— «Y por primera vez, Desmond Ludendorff se encontraba completamente a merced de la justicia celestial.» (Cap. 110)</div></div>
+</div>
+
+<div class="cat" id="caps"><h2>Guía de capítulos</h2>
+<table><tr><th>Temporada / arco</th><th class="h" style="width:80px">Caps.</th></tr>
+<tr><td colspan="2" style="padding:6px 8px">
+<details open><summary>Temporada 1 · La comuna y el primer fuego (caps. 1–20)</summary><div>
+<p>Abandono de Rubí, el rescate de Marta y el nacimiento de Desmond. Los años pasan, Desmond y James dejan la comuna 54 (cap. 5). Aparecen Skyler, Antrox y Laura, y la música empieza a mover a los sabuesos infernales. En el final de temporada, todos salen con «fuego en los ojos» y Antrox promete contactar a Desmond.</p><ol class="chl" data-a="1" data-b="20"></ol></div></details>
+<details><summary>Temporada 2 · «El infierno ya no es lo que era» (caps. 21–40)</summary><div>
+<p>Desmond da clases, el pasado vuelve a buscarlo y el romance se vuelve cuesta arriba. La banda coge forma con Julian, Isabella, Selene y compañía. Termina en una Nochevieja con fuegos artificiales y un deseo: «Paz… solo paz».</p><ol class="chl" data-a="21" data-b="40"></ol></div></details>
+<details><summary>Temporada 3 · Fuego, Queen y la furia de los silenciados (caps. 41–55)</summary><div>
+<p>Costas infernales, caos, un refugio entre sombras y el estreno del caos real. El cierre muestra a Lucifer en su trono de obsidiana mirando a una niña dormida junto a su padre: «entonces quemaré al cielo».</p><ol class="chl" data-a="41" data-b="55"></ol></div></details>
+<details><summary>Arco Gaia · Exelia, la banda y el precio del éxito (caps. 56–85)</summary><div>
+<p>Exelia escapa del cielo, la banda Gaia da su primer concierto y los seguidores se disparan. El infierno pone precio a una cabeza: 70.000.000 de Oriones. Cierra con tributos a Queen y «El Juicio de los Poderosos».</p><ol class="chl" data-a="56" data-b="85"></ol></div></details>
+<details><summary>Arco del Rey · Scott, el palacio y la Maldición (caps. 86–100)</summary><div>
+<p>El peso de la herencia, el exilio de Scott del palacio y una reconciliación. Todo desemboca en el capítulo más largo del libro: «El fin de la Maldición».</p><ol class="chl" data-a="86" data-b="100"></ol></div></details>
+<details><summary>Arco Finisterra · Catedral Celestial y tierra prohibida (caps. 101–110)</summary><div>
+<p>Tras la muerte de Astaroth, el infierno sigue sin estar en paz. Seraphiel, Miller, Caelene y la general Zeriel entran en juego, y la expedición cruza Finisterra. Final en cliffhanger: Desmond es arrestado y llevado al Cielo.</p><ol class="chl" data-a="101" data-b="110"></ol></div></details>
+</td></tr></table></div>
+
+<div class="cat" id="personajes"><h2>Los más mencionados</h2>
+<table id="rank"><tr><th>Personaje</th><th>Menciones</th></tr></table></div>
+
+<div class="cat" id="partes"><h2>Partes interesantes</h2>
+<div style="padding:8px">
+<div class="post"><div class="pu"><b>ImpDeLaComuna</b><div class="av" style="background:#4a6785">I</div>Nuevo imp</div><div class="pb"><h3><span class="d">Cap. 1–3</span>El arranque más duro</h3>
+<p>Empieza con una escena brutal y una madre que, aun desmayada, sigue protegiendo su vientre. Es la semilla de todo lo que viene después.</p></div></div>
+<div class="post"><div class="pu"><b>Julian_Guitar</b><div class="av" style="background:#2e7d4f">J</div>Rockero infernal</div><div class="pb"><h3><span class="d">Cap. 40</span>Nochevieja en el infierno</h3>
+<p>Fin de temporada con concierto, licor endemoniado y fuegos artificiales rojos, dorados y púrpuras. Es el momento más cálido del libro.</p></div></div>
+<div class="post"><div class="pu"><b>Lucifer_Fan</b><div class="av" style="background:#7a1410">L</div>Súbdito</div><div class="pb"><h3><span class="d">Cap. 55</span>El diablo tiembla</h3>
+<p>Primera vez en milenios que Lucifer siente miedo. <span class="sp" onclick="this.classList.toggle('on')">Habla de «una advertencia» con poder celestial y promete quemar el cielo y el infierno si ella se alza contra él.</span></p></div></div>
+<div class="post"><div class="pu"><b>RivenCazador</b><div class="av" style="background:#6a3d9a">R</div>Cazarrecompensas</div><div class="pb"><h3><span class="d">Cap. 71</span>Setenta millones de Oriones</h3>
+<p>Un trono, una ofensa y una recompensa: 70.000.000 de Oriones por una cabeza. El cazarrecompensas Riven acepta sonriendo: «a mí los juegos…».</p></div></div>
+<div class="post"><div class="pu"><b>Queen_Forever</b><div class="av" style="background:#b8860b">Q</div>Moderador</div><div class="pb"><h3><span class="d">Caps. 53, 65 y 84</span>Queen en el infierno</h3>
+<p>«Killer Queen», «Somebody to love» y «Tributo a Queen» tienen capítulo propio. También suena «Talk Dirty to Me» en un concierto de Gaia.</p></div></div>
+<div class="post"><div class="pu"><b>SeraphielOficial</b><div class="av" style="background:#d4a017">S</div>Serafina mayor</div><div class="pb"><h3><span class="d">Caps. 100–110</span>La caída del tercer acto</h3>
+<p><span class="sp" onclick="this.classList.toggle('on')">En el cap. 100 muere Astaroth, «el coleccionista de almas». En el cap. 110, Desmond es arrestado por entrar a un área restringida y es llevado al Cielo como acusado.</span></p></div></div>
+</div></div>
+
+<div class="cat" id="datos"><h2>Datos curiosos</h2>
+<div style="padding:8px 14px">
+<ul class="fc">
+<li><b>1.696 páginas</b> y unas <b>425.000 palabras</b> en 110 capítulos.</li>
+<li>Desmond aparece <b>casi 4.000 veces</b> por nombre: más del triple que cualquier otro personaje.</li>
+<li>Los capítulos 7, 17, 22, 42, 43, 58, 75, 86, 92, 93, 96 y 101–105 no llevan título, solo empiezan directo con la escena.</li>
+<li><b>Errata 1:</b> los capítulos 69 y 70 comparten título («El Amanecer de Gaia») y hay dos «cap. 70».</li>
+<li><b>Errata 2:</b> el capítulo que debería ser el 80 aparece rotulado como «cap. 95».</li>
+<li>El capítulo más corto de los primeros arcos tiene unas 50 líneas; el cap. 100 supera las 5.000 en el PDF.</li>
+<li>Los capítulos 42 y 43 empiezan con la misma frase sobre el amanecer en las costas infernales.</li>
+<li>El primer capítulo se llama <i>El Pecado de la Sangre</i> y Rubí tiene solo <b>20 años</b>; Desmond y James se van de casa a los <b>18</b> y <b>22</b>.</li>
+</ul></div></div>
+
+<div class="cat" id="faq"><h2>FAQ rápida</h2>
+<div style="padding:8px">
+<details><summary>¿Hay que leerlo en orden?</summary><div>Sí. Los finales de temporada (20, 40 y 55) conectan con los arcos siguientes.</div></details>
+<details><summary>¿Quién es Desmond?</summary><div>El protagonista: hijo de Rubí, criado en la comuna 54 y con sangre Ludendorff. <span class="sp" onclick="this.classList.toggle('on')">Termina arrestado por los ángeles.</span></div></details>
+<details><summary>¿Dónde se acaba la historia?</summary><div>En el capítulo 110 con el portal hacia el Cielo. Por ahora, el final es abierto.</div></details>
+</div></div>
+
+<div class="cat" id="reg"><h2>Estadísticas del foro</h2>
+<div class="stats">Total de temas: <b>5</b> · Capítulos: <b>110</b> · Miembros: <b>666</b> · Usuario más reciente: <a href="#reg">Nami_Trapeadora</a><br>Conectados ahora: 1 invitado, 4 sabuesos infernales, 1 imp (Marta)<br>Visitas: <span class="cnt">0016960</span></div></div>
+<footer>Foro de fans no oficial · Hecho con cariño</footer>
+</div>
+<script>
+var T={1:"El Pecado de la Sangre",2:"Un Destello de Esperanza en la Oscuridad",3:"El Renacer de la Esperanza",4:"El Eco de la Oscuridad",5:"Nuevos Comienzos",6:"Un Destello de Esperanza",9:"Un cumpleaños lleno de armonía",10:"Un Nuevo Refugio",11:"El Inicio de un Sueño",12:"Más Que Real",13:"Sorpresa Desagradable",14:"Entre Sombras y Verdad",15:"Verdades en las Sombras",18:"Un Compás Entre Sombras",19:"Aceptación",20:"Fin de temporada",21:"El infierno ya no es lo que era",23:"Ecos del Pasado",24:"Vulnerabilidad Divina",25:"Ecos de medianoche",26:"Donde Duelen los Eternos",27:"Huellas de un Corazón Roto",28:"Lo Que Queda del Amor",29:"Guess Who’s Back",30:"Voces del Infierno",31:"Una Botella para Dos",32:"Confesión entre Ruinas",33:"Un Nuevo Despertar",34:"El Acorde Inicial",35:"Susurros de Jade",36:"El Peso de una Segunda Oportunidad",37:"Donde encajan los rotos",38:"Sombras que aprendieron a soltar",39:"Íconos y cicatrices",40:"Luces para el Año Nuevo",41:"Fuego Azul y Corazones Rojos",44:"Entre el caos y nosotros",45:"Canción para los que aún sueñan",46:"El que no tiene trono",47:"Donde nadie más te ofrece techo",48:"Refugio entre sombras",49:"Donde el fuego no alcanza",50:"Hasta que la Eternidad nos Separe",51:"Terror Inminente",52:"Cuando el fuego no huye",53:"Killer Queen",54:"La Furia de los Silenciados",55:"El Silencio Después del Fuego",56:"El Cumpleaños de la Esperanza",59:"El Precio del Anhelo",60:"Fragmentos de Locura",61:"A falta de padre",62:"Guía para la Redención",63:"La Voz Perdida",64:"El Camino Hacia la Luz",65:"Somebody to love",66:"Sombras de Envidia",67:"El eco de la perfección",68:"Entre el Perdón y el Punk",69:"El Amanecer de Gaia",70:"El Amanecer de Gaia (bis)",71:"Setenta millones de Oriones",72:"No todo es para siempre",73:"Un mundo Nuevo",74:"El precio de la primera noche",76:"El eco de una nueva melodía",77:"Mañana será otro día",78:"Entre dos soledades",79:"El Eco de la traición",80:"(rotulado «cap. 95»)",81:"De Regreso al Hogar",82:"Las brasas del ayer",83:"La Promesa de Sanar",84:"Tributo a Queen",85:"El Juicio de los Poderosos",87:"Viejo infierno",88:"Un Rey que No Fue Criado para Reinar",89:"El peso de la herencia",90:"Besos Virtuales",91:"Exiliado del Palacio",94:"Scott es expulsado del palacio",95:"Reconciliación",97:"Un Amor Doloroso",98:"Un hombre que no se rinde",99:"El Rostro de lo Perdido",100:"El fin de la Maldición",106:"Entrando a un lugar desconocido",107:"El viaje a través de Finisterra",108:"La caminata por Finisterra",109:"El erial prohibido",110:"El portal"};
+document.querySelectorAll('ol.chl').forEach(function(o){var a=+o.dataset.a,b=+o.dataset.b,h='';for(var i=a;i<=b;i++){h+='<li value="'+i+'">Cap. '+i+' – '+(T[i]||'<i>sin título</i>')+'</li>'}o.innerHTML=h;o.style.cssText='margin:6px 0 0 20px;padding:0;columns:2;column-gap:28px'});
+var R=[["Desmond",3986],["Scott",1149],["Antrox",887],["Laura",869],["Miller",769],["Skyler",630],["Exelia",629],["Caelene",623],["James",469],["Seraphiel",409],["Natally",357],["Izobelle",353],["Morgana",343],["Astaroth",342],["Julian",285],["Lucifer",128]];
+var rk=document.getElementById('rank'),h='';
+R.forEach(function(r,i){h+='<tr><td><b>'+(i+1)+'. '+r[0]+'</b></td><td style="width:60%"><div class="bar" style="width:'+Math.max(2,r[1]/3986*100)+'%"></div><span class="sm">'+r[1].toLocaleString('es')+'</span></td></tr>'});
+rk.insertAdjacentHTML('beforeend',h);
+</script>
+</body>
+</html>
